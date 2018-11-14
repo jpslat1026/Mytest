@@ -1,0 +1,8 @@
+3. Modify the chaos program using 2.0 in place of 3.9 as the multiplier in the logistic function. Your modified line of code should look like this:
+
+x = 2.0 * x * (1 - x)
+
+Run the program for various input values and compare the results to those obtained from the original program. Write a short paragraph describing
+ any differences that you notice in the behavior of the two versions.
+
+The chaos that we used before had more long random numbers and now we only have a few long random numbers and some short numbers that are 0.5.
