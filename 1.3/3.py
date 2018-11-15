@@ -1,4 +1,4 @@
-#2.py
+#3.py
 #by John Slattery on November 15, 2018
 #This script finds the weight of atoms
 import math
