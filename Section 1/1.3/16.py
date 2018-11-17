@@ -1,7 +1,6 @@
 #16.py
 #by John Slattery on November 15, 2018
 # This script shows the Fibonacci sequence
-import math
 def main():
     print("This script shows the Fibonacci sequence")
     howfar = eval(input("how far do you want to go?: "))

@@ -1,4 +1,4 @@
-#14.py
+#17.py
 #by John Slattery on November 15, 2018
 # This Script calculates square root using Newton's method
 import math
