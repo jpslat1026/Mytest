@@ -1,4 +1,3 @@
-
 #14.py
 #by John Slattery on November 15, 2018
 # This script will approximate the value of pi
