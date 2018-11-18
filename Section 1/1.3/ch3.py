@@ -4,8 +4,9 @@
 def main():
     print("This script will calculate how much the bike shop makes averging the helmet cost")
     bikes = eval(input("How many bikes were purched? "))
-    bickeamount = bikes * 250
-    for i in [5,10]:
-        bickeamount = bickeamount + 50
-    print(bickeamount)
+    bikeamount = bikes * 250
+    helmet = bikes / 5
+    helmet = helmet * 50
+    total = bikeamount + helmet
+    print("The bike shop matkes a total average of", total, "dollars")
 main() 
