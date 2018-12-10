@@ -1,4 +1,4 @@
-#2.py
+#4.py
 #by John Slattery on November 19, 2018
 #This script wil display a face for 5 seconds
 

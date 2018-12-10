@@ -1,4 +1,4 @@
-#2.py
+#1.py
 #by John Slattery on November 19, 2018
 #this script will print a box in a graphic window an when you click the box will follow
 import graphics

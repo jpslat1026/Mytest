@@ -1,6 +1,6 @@
-#5.py
+#7.py
 #by John Slattery on November 19, 2018
-#This script wil display a face for 5 seconds
+#This script wil make a circle for a given radius
 
 import graphics
 from graphics import *
