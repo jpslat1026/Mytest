@@ -1,6 +1,7 @@
 #14.py
 #by John Slattery on November 15, 2018
 # This script will approximate the value of pi
+import math
 def main():
     print("This script will approximate the value of pi")
     n = eval(input("Enter the numbers of terms to be summed: "))
