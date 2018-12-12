@@ -1,16 +1,21 @@
-s1 = "spam"
-s2 = "ni!"
-#print("The Knights who say, " + s2)
-#print(3 * s1 + 2 * s2)
-#print(s1[1])
-#print(s1[1:3])
-#print(s1[2] + s2[:2])
-#print(s1 + s2[-1])
-#print(s1.upper())
-#print(s2.upper().ljust(4) * 3)
-#print(s2.upper())
-#print(s2 + s1 + s2)
-#print(s1+s2+s1+s2+s1+s2)
-#print(s1[0:2] + s1[3])
-for ch in "aardvark":
-    print(ch)
+# 2.py
+#by John Slattery on December 11, 2018
+# Converts a date in form "mm/dd/yyyy" to "month day, year "
+
+def main():
+    # get the date
+    dateStr = input("Enter a date (mm/dd/yyyy): ")
+
+    # split into components
+    monthStr, dayStr, yearStr = dateStr.split("/")
+
+    # convert monthStr to the month name
+    months = ["January", "February", "March", "April",
+              "May", "June", "July", "August",
+              "September", "October", "November", "December"]
+   
+    monthStr = months[int(monthStr) - 1]
+
+    # output result in month day , year format
+    print("The converted date is: {0} {1},{2}".format(monthStr, dayStr, yearStr))
+main()
