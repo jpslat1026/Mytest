@@ -1,6 +1,6 @@
-#2.py
-#by John Slattery on December 11, 2018
-#This Script will make a 12inc ruler
+#4.py
+#by John Slattery on December 12, 2018
+#This Script will make a ruler wit milameters and centmeterson it
 
 import graphics
 
@@ -36,6 +36,18 @@ def main():
         lineinch = Line(Point(x,2), Point(x,3.5))
         lineinch.draw(win)
         x = x+24
+    #centimeters
+    x = 0
+    for i in range(300):
+        lineinch = Line(Point(x,8), Point(x,7))
+        lineinch.draw(win)
+        x = x+4
+    #cenimeters
+    x = 0
+    for i in range(300):
+        lineinch = Line(Point(x,8), Point(x,6))
+        lineinch.draw(win)
+        x = x+36
 
     #close
     win.getMouse()

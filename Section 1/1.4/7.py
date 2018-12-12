@@ -15,14 +15,27 @@ def main():
     win.getMouse()
     r = r.getText()
     r = eval(r)
-    win.close()
-
+    
     #other
-    win = GraphWin("cir")
+    win = GraphWin("cir", 500,500)
     win.setCoords(-10,-10,10,10)
     center = Point(0,0)
     cir = Circle(center, r)
     cir.setFill("yellow")
     cir.draw(win)
-    win.getMouse()
+
+    
+    #line
+    l = Line(Point(0,0), Point(r,0))
+    l.draw(win)
+
+    #text raduis = ?
+    r = str(r)
+    t = Text(Point(0.020040080160320883, 0.4208416833667332), "r = " + r)
+    t.draw(win)
+
+    #close
+    a = win.getMouse()
+    print(a)
+    win.close()
 main()

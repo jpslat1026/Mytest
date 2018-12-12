@@ -8,7 +8,7 @@ from graphics import *
 def main():
 
     #Graphics Window
-    win = GraphWin("This will make graph paper", 500,500)
+    win = GraphWin("This will make a checker board", 500,500)
     win.setCoords(8,8,0,0)
 
     #red
@@ -73,6 +73,7 @@ def main():
         a.draw(win)
         x=x+2
         y=y+2
+        
     #fsff
     a = Rectangle(Point(0,3),Point(1,4))
     a.setFill("red")
@@ -93,6 +94,9 @@ def main():
         a.draw(win)
         x=x+2
         y=y+2
+
+
+
     #dfdfsd
     a = Rectangle(Point(0,4),Point(1,5))
     a.setFill("black")
@@ -113,7 +117,78 @@ def main():
         a.draw(win)
         x=x+2
         y=y+2
-    
+    f=4
+    g=5
+    f = f+1
+    g=g+1
+    #dfdfsd
+    a = Rectangle(Point(0,f),Point(1,g))
+    a.setFill("red")
+    a.draw(win)
+    x = 1
+    y = 2
+    for i in range(4):
+        a = Rectangle(Point(x,g),Point(y,f))
+        a.setFill("black")
+        a.draw(win)
+        x = x + 2
+        y = y + 2
+    x=2
+    y=3
+    for i in range(3):
+        a = Rectangle(Point(x,f),Point(y,g))
+        a.setFill("red")
+        a.draw(win)
+        x=x+2
+        y=y+2
+
+        #esdfds
+    f = f+1
+    g=g+1
+    #dfdfsd
+    a = Rectangle(Point(0,f),Point(1,g))
+    a.setFill("black")
+    a.draw(win)
+    x = 1
+    y = 2
+    for i in range(4):
+        a = Rectangle(Point(x,g),Point(y,f))
+        a.setFill("red")
+        a.draw(win)
+        x = x + 2
+        y = y + 2
+    x=2
+    y=3
+    for i in range(3):
+        a = Rectangle(Point(x,f),Point(y,g))
+        a.setFill("black")
+        a.draw(win)
+        x=x+2
+        y=y+2
+
+
+    f = f+1
+    g=g+1
+    #dfdfsd
+    a = Rectangle(Point(0,f),Point(1,g))
+    a.setFill("red")
+    a.draw(win)
+    x = 1
+    y = 2
+    for i in range(4):
+        a = Rectangle(Point(x,g),Point(y,f))
+        a.setFill("black")
+        a.draw(win)
+        x = x + 2
+        y = y + 2
+    x=2
+    y=3
+    for i in range(3):
+        a = Rectangle(Point(x,f),Point(y,g))
+        a.setFill("red")
+        a.draw(win)
+        x=x+2
+        y=y+2
 
     #close
     win.getMouse()
