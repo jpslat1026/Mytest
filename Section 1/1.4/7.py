@@ -39,13 +39,13 @@ def main():
 
     #Y intercept
     x = math.sqrt(abs(((r ** 2) - (yint **2))))
-    print(x)
     cir = Circle(Point(x,yint), 0.5)
     cir.setFill("red")
     cir.draw(win)
     cir = Circle(Point(-x,yint), 0.5)
     cir.setFill("red")
     cir.draw(win)
+    x = math.floor(x)
     x = str(x)
     #text raduis = ?
     t = Text(Point(0.020040080160320883, 0.4208416833667332), "The X intercept is " + x + " and -" + x)

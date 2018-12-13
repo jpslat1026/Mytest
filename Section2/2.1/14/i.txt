@@ -1,0 +1,3 @@
+This is a file that will be read ad my script will tell you homany lines words 
+and characters there 
+are.

@@ -1,4 +1,4 @@
-# 2.py
+# 3.py
 #by John Slattery on December 11, 2018
 #This will tell you your grade
 
