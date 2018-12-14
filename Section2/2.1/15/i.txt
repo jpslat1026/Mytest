@@ -1,0 +1,2 @@
+John Slatetry, Mr. Grimsely, r1, r2
+100, 2, 80, 60
