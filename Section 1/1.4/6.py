@@ -19,7 +19,7 @@ def main():
     apr = eval(apr)
     win.close()
 
-    win = GraphWin("Investment Growth Chart", 320, 240)
+    win = GraphWin("Grades", 320, 240)
     win.setBackground("white")
     win.setCoords(-1.75, -200, 11.5, 10400)
     Text(Point(-1, 0), '0.0K').draw(win)
