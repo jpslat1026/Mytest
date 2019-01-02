@@ -10,12 +10,11 @@ def main():
         loose = input("would you like to encrypte(e) or decrypte(d): ")
         if loose == "e":
             message = input("Enter your Message to encrypte: ")
-            x = input("what is the key(ex: 7,8,4): ")
-            x.split(",")
-            y = eval(x[2])
-            z = eval(x[3])
+            x = input("what is the key(ex: 7 8 4): ")
+            x.split(" ")
+            y = eval(x[0])
+            z = eval(x[2])
             x = eval(x[0])
-            b = 0
             c = ""
             for l in message:
                 a = ord(l) + x - z + y
@@ -24,12 +23,11 @@ def main():
             x = input("Would you like to do it again(y/n): ")
         if loose == "d":
             message = input("Enter your Message to decrypt: ")
-            x = input("what is the key(ex: 7,8,4): ")
-            x.split(",")
-            y = eval(x[2])
-            z = eval(x[3])
+            x = input("what is the key(ex: 7 8 4): ")
+            x.split(" ")
+            y = eval(x[0])
+            z = eval(x[2])
             x = eval(x[0])
-            b = 0
             c = ""
             for l in message:
                 a = ord(l) - x + z - y
