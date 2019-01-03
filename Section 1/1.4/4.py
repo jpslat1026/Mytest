@@ -1,6 +1,6 @@
 #4.py
 #by John Slattery on November 19, 2018
-#This script wil display a face for 5 seconds
+#This script wil display a cristmas sceen for 1 second
 
 import graphics
 from graphics import *
@@ -102,11 +102,5 @@ def main():
     cir = Circle(Point(79,189), 2)
     cir.setFill("white")
     cir.draw(win)
-    time.sleep(0.2)
-    n = eval(input("How Many points would you like to draw: "))
-    for i in range(n):
-        p = win.getMouse()
-        mousex = int(p.getX())
-        mousey = int(p.getY()) 
-        print("You clicked at: %s,%s " % (mousex,mousey))
+    time.sleep(1)
 main()

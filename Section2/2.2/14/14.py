@@ -1,3 +1,7 @@
+# 14.py
+#by John Slattery on January 3, 2019
+#this script will sum of the squares of numbers read from a file
+
 def squareEach(nums):
   for i in nums:
        v = i * i
