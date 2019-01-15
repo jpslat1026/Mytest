@@ -1,1 +1,1 @@
-# 1.1, 1.2, 1.3 are in, and 1.4 but it is not done yet
+# 1.1, 1.2, 1.3, 1.4,2.1,2.2,and 3.1 are all turned in
